@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Advanced Search</title>
+    <link rel="icon" href="img/googlelogo.png" type="image/icon type">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="head">
+
+        <div class="right">
+        <div class="srchbutton">
+            <a href="index.html">
+            <button>Search</button>
+            </a>
+         </div>
+
+        
+        </div>
+        <div class="imglogo">
+        <img id="litllelogo" src="/img/logo.png" alt="Google logo">
+        <br>
+        <label id="AS">Advanced Search</label>
+        </div>
+        <hr>
+        
+    </div>
+
+
+    <div class="advform">
+        <form action="https://www.google.com/search">
+            
+            <span id="find">Find pages with...</span>
+            <span id="todo">To do this in the search box.</span>
+            <br>
+
+            <span id="span">all these words:</span>
+            <div class="Allsearch">
+            <input id="Allsearch" type="text" name="q" size="20">
+           <span id="comment">Type the important words: tri-colour rat terrier</span>
+            </div>
+            
+            <br>
+        
+            <span id="span">this exact word or phrase:</span>
+            <div class="Thissearch">
+            <input id="Thissearch" type="text" name="epq" size="20">
+            <span id="comment">Put exact words in quotes: "rat terrier"</span>
+            </div>
+
+
+            <br>
+
+            <span id="span">any of these words:</span>
+            <div class="Anysearch">
+            <input id="Anysearch" type="text" name="oq" size="20">
+            <span id="comment">Type OR between all the words you want: miniature OR standard</span>
+            </div>
+
+            <br>
+
+            <span id="span1">none of these words:</span>
+            <div class="Nonesearch">
+            <input id="Nonesearch" type="text" name="eq" size="20">
+            <span id="comment1">Put a minus sign just before words that you don't want:<br></span>
+            </div>
+            <br>
+
+        <hr class="buthr">
+        
+        <div class="submit">
+        <input id="submitad" type="submit" value="Advanced Search">
+        </div>   
+        </form>        
+</body>
+</html>
